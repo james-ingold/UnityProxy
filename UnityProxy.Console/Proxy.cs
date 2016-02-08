@@ -27,7 +27,6 @@ namespace UnityProxy.Console
                 // Start OWIN proxy host 
                 apps.Add(WebApp.Start<Proxy>(proxyAddress));
                 Trace.WriteLine("Proxy server is running");
-                Trace.WriteLine("Set your IE proxy to:" + proxyAddress);
             }
             catch (Exception ex)
             {

@@ -21,7 +21,8 @@ namespace UnityProxy.Console
             ServicePointManager.Expect100Continue = false;
 
             Proxy.Start(proxyAddress);
-            System.Threading.Thread.Sleep(100000);
+            System.Console.ReadKey();
+            Proxy.Stop();
         }
     }
 }

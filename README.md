@@ -1,4 +1,4 @@
-A proxy using ASP.NET Web API for accessing Unity web services.
+A proxy using ASP.NET Web API for accessing AllScripts' Unity web services. http://developer.allscripts.com/SDK/GetStarted
 
 When trying to access the Unity API from JavaScript, one will likely get a Cross-Origin Resource Sharing-related exception raised by the browser, along the lines of
 
